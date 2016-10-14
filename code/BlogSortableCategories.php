@@ -15,5 +15,8 @@ class BlogSortableCategories extends DataExtension {
 		if($grid = $fields->dataFieldByName('Categories')) {
 			$grid->getConfig()->addComponent(new GridFieldOrderableRows());
 		}
+		if($grid = $fields->dataFieldByName('Tags')) {
+			$grid->getConfig()->addComponent(new GridFieldOrderableRows());
+		}
 	}
 }

@@ -1,6 +1,9 @@
 BlogCategory:
   extensions:
     - SortableBlogCategory
+BlogTag:
+  extensions:
+    - SortableBlogTag 
 Blog:
   extensions:
     - BlogSortableCategories
